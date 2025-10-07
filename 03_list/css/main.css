@@ -1,0 +1,40 @@
+
+.list-1{
+    list-style-type:disc;
+}
+.list-2{
+    list-style-type:none;
+    list-style-image: url(../img/smile.png);
+}
+.list-3{
+    list-style-position: inside;
+}
+
+.list-4{
+    list-style-type: square;
+}
+.list-5{
+    /* list-style-type: disc; */
+    color: orange;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.list-5 span{
+    color: brown;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.list-4{
+    border: solid;
+}
+.list-4>li{
+    border: solid purple;
+}
+.list-5 li{
+    border: solid;
+}
+dd{
+    margin: 0;
+}
