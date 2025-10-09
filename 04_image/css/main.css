@@ -1,0 +1,33 @@
+.img-2{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+.img-3{
+    float: right;
+    clear: both;
+}
+.text-2{
+    clear: left;
+}
+body{
+
+    /* background-image: url(../img/img-1.jpg);
+    background-repeat: no-repeat; */
+    /* background-position-x: center;
+    background-position-y: bottom; */
+    /* background-position: center bottom; */
+    /* background-size: cover; */
+    background: #ccc url(../img/img-1.jpg) no-repeat center top;
+    background-size: 100%;
+    background-attachment: fixed;
+
+
+}
+.text-1{
+    width: 400px;
+    height: 200px;
+    border:solid;
+    background-image: url(../img/1631895769_6-papik-pro-p-malenkie-risunki-peizazhi-6.jpg);
+    background-size:cover;
+}
