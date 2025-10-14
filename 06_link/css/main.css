@@ -1,0 +1,29 @@
+a:link {
+    font-size: 24px;
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: 1px 1px 5px purple;
+}
+
+a:visited {
+    color: rgb(3, 59, 3);
+    background-color: rgb(181, 240, 220);
+}
+a:hover{
+    color: #fff;
+    background-color: #000;
+    box-shadow: inset 0px 0px 5px #fff;
+    text-shadow: 1px 1px 1px purple;
+}
+a:active{
+    color:yellow;
+}
+h1{
+    text-align: center;
+    margin: 50px;
+    border: ridge 5px purple;
+    padding: 15px;
+    text-transform: uppercase;
+}
