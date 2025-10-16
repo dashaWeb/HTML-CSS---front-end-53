@@ -46,3 +46,8 @@ ul{
 li{
     display: inline-block;
 }
+
+p{
+    text-align: justify;
+    text-align-last: justify;
+}
