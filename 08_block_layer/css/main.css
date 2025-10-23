@@ -1,0 +1,51 @@
+.task-1{
+    /* width: 700px; */
+    margin:0 50px
+}
+.task-1 header{
+    width: 100%;
+    height: 130px;
+    margin-bottom: 10px;
+}
+.task-1 header,
+.task-1 nav,
+.task-1 aside,
+.task-1 main,
+.task-1 footer
+{
+    border:solid;
+    font-size: 28px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-1 nav,
+.task-1 aside
+{
+    width: 140px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.task-1 main{
+    height: 600px;
+}
+
+.task-1 nav{
+    float: left;
+}
+.task-1 aside{
+    float: right;
+}
+.task-1 main{
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+.task-1 footer{
+    height: 70px;
+    margin-top: 10px;
+    clear: both;
+}
