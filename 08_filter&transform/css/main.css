@@ -1,0 +1,116 @@
+
+.wrapper img:nth-child(1):hover
+{
+    transform: translateX(50px);
+}
+.wrapper img:nth-child(2):hover
+{
+    transform: translateY(50px);
+}
+.wrapper img:nth-child(3):hover
+{
+    transform: translate(50px,50px);
+}
+
+.wrapper img:nth-child(4){
+    transform-origin: right top;
+}
+
+.wrapper img:nth-child(4):hover
+{
+    transform: rotate(-45deg);
+}
+
+.wrapper img:nth-child(5):hover
+{
+    transform: scale(1.2);
+}
+
+
+.wrapper img:nth-child(6)
+{
+    transform-origin: left center;
+}
+.wrapper img:nth-child(6):hover
+{
+    transform: scaleX(-1);
+}
+
+.wrapper img:nth-child(7):hover
+{
+    transform: skew(45deg,15deg);
+}
+
+
+.wrapper img:nth-child(8){
+    transform: perspective(100px) rotateY(0deg)
+}
+
+.wrapper img:nth-child(8):hover
+{
+    transform: perspective(100px) rotateY(15deg);
+}
+
+.wrapper img:nth-child(9){
+    filter: blur(10px);
+}
+
+.wrapper img:nth-child(9):hover
+{
+    filter: blur(0px);
+}
+.wrapper img:nth-child(10):hover
+{
+    filter: brightness(0.5);
+}
+
+.wrapper img:nth-child(11):hover
+{
+    filter:contrast(1.5);
+}
+.wrapper img:nth-child(12)
+{
+    filter:grayscale(1);
+}
+.wrapper img:nth-child(12):hover
+{
+    filter:grayscale(0);
+}
+
+.wrapper img:nth-child(13):hover
+{
+    filter:hue-rotate(90deg);
+}
+
+.wrapper img:nth-child(14):hover
+{
+    filter:invert(1);
+}
+
+.wrapper img:nth-child(15):hover
+{
+    filter:opacity(0.5)
+}
+
+.wrapper img:nth-child(16):hover
+{
+    filter:saturate(0.5)
+}
+.wrapper img:nth-child(17):hover
+{
+    filter:sepia(1);
+}
+
+.wrapper img:nth-child(18):hover
+{
+    filter:drop-shadow(5px 5px 10px black)
+}
+.wrapper img:nth-child(19):hover
+{
+    box-shadow: 1px 1px 20px black;
+}
+
+.wrapper img:nth-child(20):hover
+{
+    filter:drop-shadow(1px 1px 10px black)
+}

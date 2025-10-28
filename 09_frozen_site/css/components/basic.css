@@ -1,0 +1,86 @@
+/* fonts */
+
+@font-face {
+    font-family: "RammettoOne";
+    src: url(../../fonts/RammettoOne.ttf);
+    /* src: url(/fonts/RammettoOne.ttf); */
+}
+
+h1{
+    font-family: "RammettoOne";
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.container{
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.bg-header{
+    background-color: #edeaeb;
+}
+.bg-header header{
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+a{
+    text-decoration: none;
+}
+.bg-header h1{
+    position: relative;
+}
+.bg-header h1 a{
+    
+    color: #cb3362;
+}
+.bg-header h1 a span{
+    color: #c8c10d;
+}
+
+.bg-header h1 img{
+    position: absolute;
+    left:110px;
+    top: 2px;
+}
+.Freeeze {
+    font-size: 30px;
+    font-family: "RammettoOne";
+    color: rgb(203, 51, 98);
+    line-height: 2.983;
+    text-align: left;
+  }
+.bg-header ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+
+}
+.bg-header li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.bg-header #active{
+    color: rgb(203, 51, 98);
+}
+
+.bg-header nav a{
+    color:#7a6666;
+}
