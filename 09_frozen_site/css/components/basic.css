@@ -6,9 +6,29 @@
     /* src: url(/fonts/RammettoOne.ttf); */
 }
 
-h1{
-    font-family: "RammettoOne";
+@font-face {
+    font-family: "LatoRegular";
+    src: url(../../fonts/lato-regular-webfont.ttf);
 }
+
+@font-face {
+    font-family: "QuicksandBold";
+    src: url(../../fonts/quicksand-bold-webfont.ttf);
+}
+
+@font-face {
+    font-family: "LatoBold";
+    src: url(../../fonts/lato-bold-webfont.ttf);
+}
+@font-face {
+    font-family: "MagraBold";
+    src: url(../../fonts/magra-bold-webfont.ttf);
+}
+@font-face {
+    font-family: "RobotoRegular";
+    src: url(../../fonts/roboto-regular-webfont.ttf);
+}
+
 body,
 h1,
 h2,
@@ -20,6 +40,13 @@ ul,
 p{
     margin: 0;
     padding: 0;
+}
+h1{
+    font-family: "RammettoOne";
+    padding-left: 30px;
+}
+ul{
+    list-style-type: none;
 }
 .container-fluid{
     box-sizing: border-box;
@@ -67,15 +94,19 @@ a{
     line-height: 2.983;
     text-align: left;
   }
-.bg-header ul{
+.bg-header ul.menu{
     list-style-type: none;
     float: right;
     margin-top: 20px;
+    position: relative;
+    z-index: 1;
 
 }
-.bg-header li{
-    display: inline-block;
+.bg-header .menu>li{
+    float: left;
     margin-left: 15px;
+    width: 100px;
+    text-align: center;
 }
 .bg-header #active{
     color: rgb(203, 51, 98);
@@ -83,4 +114,18 @@ a{
 
 .bg-header nav a{
     color:#7a6666;
+    font-family: "LatoRegular";
+}
+.bg-header nav a:hover{
+    color:#c8c10d;
+}
+.inset-link{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    margin-top: 5px;
+    display: none;
+}
+.bg-header .menu>li:hover .inset-link{
+    display: block;
 }

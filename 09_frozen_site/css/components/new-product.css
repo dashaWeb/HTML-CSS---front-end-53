@@ -1,0 +1,31 @@
+.bg-new-product{
+    border: solid 1px #eae7e8;
+    background-color: #eae7e8;
+}
+
+.bg-new-product article{
+    padding-left: 30px; 
+}
+.bg-new-product img{
+    float: right;
+}
+.bg-new-product h2{
+    color:#7a6666;
+    font-size: 18px;
+    font-family: "LatoBold";
+    margin-top: 50px;
+    margin-bottom: 23px;
+}
+.bg-new-product h3{
+    color:#e32a62;
+    font-size: 30px;
+    font-family: "MagraBold";
+}
+.bg-new-product p {
+    color:#7a6666;
+    font-size: 14px;
+    font-family: "RobotoRegular";
+    line-height: 24px;
+    margin-bottom: 40px;
+    margin-top: 37px;
+}

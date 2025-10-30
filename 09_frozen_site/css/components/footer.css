@@ -1,0 +1,22 @@
+.bg-footer{
+    background-color: #cb3362;
+    padding-bottom: 60px;
+}
+.bg-footer ul{
+    text-align: center;
+}
+.bg-footer li{
+    display: inline-block;
+    margin: 60px 15px 30px;
+}
+.bg-footer a{
+    color:#fff;
+    font-size: 30px;
+    
+}
+.bg-footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    font-family: "RobotoRegular";
+}

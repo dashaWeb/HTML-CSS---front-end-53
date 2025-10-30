@@ -1,0 +1,20 @@
+.bg-icons{
+    background-color: #c8c10d;
+    height: 147px;
+    padding-top: 37px;
+    padding-bottom: 28px;
+}
+.bg-icons li{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.bg-icons a{
+    color:#fff;
+    font-size: 20px;
+    font-family: "LatoRegular";
+}
+.bg-icons img{
+    margin-bottom: 20px;
+}
