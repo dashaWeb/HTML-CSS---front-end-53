@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+        p{
+            box-shadow: 1px 1px 2px #000;
+            padding: 10px;
+        }
+        .block{
+            width: 50px;
+            height: 50px;
+            border:solid;
+            transform: rotate(45deg);
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        span{
+            transform: rotate(-45deg);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quidem, nisi doloremque quisquam, corrupti enim ratione, adipisci provident incidunt dolores voluptatum sapiente deserunt unde et rem! Id sed itaque laudantium?</p>
+        <p>Quam, aspernatur quos. Rerum iste ducimus repudiandae cum animi, possimus itaque suscipit commodi eius impedit debitis, tempore veniam iusto recusandae dolore nostrum, accusantium optio voluptates! Suscipit magni corrupti rerum saepe!</p>
+        <p>Molestiae deserunt accusantium sapiente doloremque! Ipsum deleniti architecto dolores voluptatem? Doloribus cupiditate beatae consequuntur deserunt repellat dolore est similique harum consequatur distinctio modi numquam animi perferendis, ex obcaecati enim minus.</p>
+        <p>Numquam aliquid vero magnam nobis expedita aperiam enim? Est, quis totam obcaecati rem ipsam iste libero dolorum rerum eos quam sequi atque dignissimos recusandae tempore voluptatibus repellendus! Impedit, rerum numquam.</p>
+    </div>
+
+
+    <div class="block">
+        <span>1</span>
+    </div>
+</body>
+</html>

@@ -7,74 +7,72 @@
     position: relative;
     overflow: hidden;
 }
+.wrapper{
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
 p{
     text-align: center;
 }
-img{
-    position: absolute;
-    left: 0;
-}
+
 .img-calc,
 .img-book,
 .img-paper,
 .img-pallete
 {
     width: 200px;
+    position: absolute;
+    margin-top: 400px;
+    animation: slide-up 2s forwards;  
 }
 
-.img-paper,
-.img-pallete{
-    display: none;
-}
 .img-calc{
+    width: 100px;
     transform: rotate(-30deg);
-    left: 50px;
-    animation: calc 2s forwards;
+    left: 0;
+    top: 200px; 
+    
     
 }
 .img-book{
     transform: rotate(-5deg);
-    left: 255px;
-    animation: book 2s 0.5s forwards;
+    left: 100px;
+    width: 150px;
+    top: 100px;
+    animation-delay: 0.5s;
     
 }
-.img-pencil{
-    transform: rotate(90deg);
-   
-    left: 300px;
-    animation: pencil 2s 2s forwards;
+
+
+.img-pallete{
+    transform: scaleX(-1) rotate(-30deg);
+    width: 100px;
+    right: 0;
+    top: 200px;   
+    animation-delay:1s;
+}
+.img-paper
+{
+    width: 150px;
+    transform: rotate(5deg);
+    right: 100px;
+    top: 100px;
+    animation-delay: 1.5s;
 }
 
-.img-book{
-    top: 700px;
-}
-.img-calc{
-    top: 700px;
-}
 .img-pencil{
-    top: 700px;
+    transform: rotate(90deg);
+    position: relative;
+    top: 300px;
+    margin-top: 400px;
+    animation: slide-up 2s forwards;  
+    animation-delay: 2s;
+    
 }
-@keyframes calc {
-    from{
-        top: 700px;
-    }
-    to{
-        top: 200px;
-    }
-}
-@keyframes book {
-    from{
-        top: 700px;
-    }
-    to{
-        top: 129px;
-    }
-}
-@keyframes pencil {
-    from{
-        top: 700px;
-    }
-    to{
-        top: 450px;
-    }
+
+@keyframes slide-up {
+    from{margin-top: 400px;}
+    to{margin-top: 0px;}
 }
