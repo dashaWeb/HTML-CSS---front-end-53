@@ -2,5 +2,29 @@
 @import "components/variables.css";
 @import "components/basic.css";
 @import "components/header.css";
+@import "components/options.css";
+@import "components/block-creative.css";
+@import "components/about.css";
 
 
+
+
+/* helper */
+
+.work{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.work ul{
+    display: flex;
+    justify-content: center;
+}
+.work li{
+    padding: 15px;
+    border: solid 1px;
+    border-left:none;
+    flex-grow: 1;
+}
+.work li:first-child{
+    border-left: solid 1px;;
+}
