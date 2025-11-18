@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <form action="">
+        <label for="">Name</label>
+        <input type="text" value="default text"  disabled>
+        <label for="">Last Name</label>
+        <input required type="text" placeholder="enter last name">
+        
+        <label for="">Password</label>
+        <input type="password">
+        <label for="">Email</label>
+        <input type="email">
+
+        <label for="">Number</label>
+        <input step="2" type="number" min="5" max="15" value="7">
+
+        <label for="">Date</label>
+        <input type="date" >
+
+        <label for="">DateTime</label>
+        <input type="datetime" >
+
+        <label for="">Color</label>
+        <input type="color" >
+
+        <label for="">Radio</label>
+        <fieldset>
+            <input id="radio-1" type="radio" name="fruits">
+            <label for="radio-1">Apple</label>
+            <br>
+            <input id="radio-2" type="radio" name="fruits">
+            <label for="radio-2">Plum</label>
+            <br>
+            <input id="radio-3"  type="radio" name="fruits">
+            <label for="radio-3">Orange</label>
+        </fieldset>
+
+        <label for="">Checkbox</label>
+        <fieldset>
+            <input checked type="checkbox" name="fruits">
+            <label for="">Apple</label>
+            <br>
+            <input type="checkbox" name="fruits">
+            <label for="">Plum</label>
+            <br>
+            <input type="checkbox" name="fruits">
+            <label for="">Orange</label>
+        </fieldset>
+
+        <label for="">Select</label>
+        <select name="" id="">
+            <option value="Lime">Lime</option>
+            <option value="Red">Red</option>
+            <option value="Purple">Purple</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Green">Green</option>
+        </select>
+        <label for="">Select</label>
+        <select name="" id="">
+            <optgroup label="Colors">
+            <option value="Lime">Lime</option>
+            <option value="Red">Red</option>
+            <option value="Purple">Purple</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Green">Green</option>
+            </optgroup>
+        </select>
+        <label for="">Range</label>
+        <input type="range" min="0" max="100" value="20">
+
+        <label for="">Button</label>
+        <input type="button" value="Test Send">
+
+        <label for="">Button</label>
+        <input type="submit" value="Submit">
+
+        <label for="">Reset</label>
+        <input type="reset" value="Reset">
+
+        <label for="" style="align-self: center;">Image Submit</label>
+        <input type="image" src="https://pngimg.com/d/buttons_PNG89.png" style="width: 200px;">
+
+        <label for="">File</label>
+        <input type="file" value="Test Send">
+
+        <label for="">Hidden</label>
+        <input type="hidden" value="Test Send">
+        <br>
+
+        <label for="">Textarea</label>
+        <textarea name="" id="" rows="6" cols="20"></textarea>
+
+        <button disabled>Send</button>
+    </form>
+</body>
+</html>

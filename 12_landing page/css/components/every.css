@@ -1,0 +1,21 @@
+.bg-every{
+    background: var(--dark-color) url(../../img/Transperent\ BG.png);
+    text-align: center;
+}
+.bg-every h3{
+    font-size: 40px;
+    font-family: var(--font-bold);
+    color: var(--main-color);
+    padding-top: 11.11%;
+}
+.bg-every p{
+    font-size: 16px;
+    color: #d8d8d8;
+    font-family: var(--font-regular);
+    padding-top: 3.07%;
+    padding-bottom: 6.32%;
+}
+.btn-main a{
+    color: var(--light-color);
+    font-family: var(--font-bold);
+}

@@ -1,0 +1,18 @@
+.bg-down{
+    background-color: #1c2b33;
+}
+.content-down{
+    display: grid;
+    grid-template-columns: 3fr 4fr 3fr 2fr;
+}
+
+.section-3 td{
+    border:solid 1px #d7d7d7;
+    color:#d7d7d7;
+    padding: 5px;
+    border-spacing: 15px;
+}
+.section-3 td:hover{
+    background-color: var(--main-color);
+    cursor: pointer;
+}

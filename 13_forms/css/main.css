@@ -1,0 +1,36 @@
+form{
+    display: grid;
+    grid-template-columns: 100px auto;
+    row-gap: 20px;
+}
+
+input[type="radio"]
+{
+    color:red;
+    background-color: red;
+}
+input[type="radio"]
+{
+    display: none;
+}
+label[for="radio-1"]::before{
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border:solid 2px red;
+    border-radius: 50% ;
+    margin-right: 10px;
+}
+#radio-1:checked + label[for="radio-1"]:after{
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color:red;
+    display: inline-block;
+    border-radius: 50%;
+    transform: translateX(-57px) translateY(-3px);
+}
+option:hover{
+    background-color: rgb(238, 93, 233);
+}
